@@ -19,8 +19,10 @@ struct ContentView: View {
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 ForEach(animals) { item in
-                    AnimalListItemView(animal: item)
-                }
+                    NavigationLink(destination: AnimalDetailView(animal: item)) {
+                        AnimalListItemView(animal: item)
+                    } //: Link
+                } //: Loop
             } //: List
             .navigationBarTitle("Africa", displayMode: .large)
         } //: Navigation
