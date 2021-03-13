@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0175E825FC88AD009658C3 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */; };
 		1D59A39825FB1EF700E25550 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59A39725FB1EF700E25550 /* AfricaApp.swift */; };
 		1D59A39A25FB1EF700E25550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59A39925FB1EF700E25550 /* ContentView.swift */; };
 		1D59A39C25FB1EFB00E25550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A39B25FB1EFB00E25550 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		1D59A39425FB1EF700E25550 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D59A39725FB1EF700E25550 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		1D59A39925FB1EF700E25550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				1DA4C34325FB758500006882 /* ExternalWebLinkView.swift */,
 				1DA4C34925FB943B00006882 /* VideoListItemView.swift */,
 				1D86A5C225FC721100FAB00F /* VideoPlayerView.swift */,
+				1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				1D59A3D525FB273E00E25550 /* MapView.swift in Sources */,
 				1DA4C34425FB758500006882 /* ExternalWebLinkView.swift in Sources */,
 				1D86A5C725FC733100FAB00F /* VideoPlayerUtility.swift in Sources */,
+				1D0175E825FC88AD009658C3 /* MapAnnotationView.swift in Sources */,
 				1D59A3CF25FB271900E25550 /* MainView.swift in Sources */,
 				1DA4C34725FB92F000006882 /* VideoModel.swift in Sources */,
 				1D59A39825FB1EF700E25550 /* AfricaApp.swift in Sources */,

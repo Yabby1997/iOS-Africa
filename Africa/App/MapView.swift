@@ -35,13 +35,58 @@ struct MapView: View {
 //            MapMarker(coordinate: item.location, tint: .accentColor)
             
             // (C) : CUSTOM BASIC (INTERACTIVE)
+//            MapAnnotation(coordinate: item.location) {
+//                Image("logo")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .frame(width: 32, height: 32, alignment: .center)
+//            }
+            
+            // (D) : CUSTOM ADVANCED (INTERACTIVE)
             MapAnnotation(coordinate: item.location) {
-                Image("logo")
+                MapAnnotationView(location: item)
+            }
+        }) //: MAP
+        .ignoresSafeArea(edges: .top)
+        .overlay(
+            HStack(alignment: .center, spacing: 12) {
+                Image("compass")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 32, height: 32, alignment: .center)
+                    .frame(width: 48, height: 48, alignment: .center)
+                VStack(alignment: .leading, spacing: 3) {
+                    HStack {
+                        Text("Latitude : ")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.latitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                    }
+                    HStack {
+                        Text("Longitude : ")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.longitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                    }
+                }
             }
-        })
+            .padding(.vertical, 12)
+            .padding(.horizontal, 16)
+            .background (
+                Color.black
+                    .cornerRadius(8)
+                    .opacity(0.6)
+            )
+            .padding()
+            , alignment: .topLeading
+        )
     }
 }
 
