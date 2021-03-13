@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D0175E825FC88AD009658C3 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */; };
 		1D0175EB25FC9397009658C3 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175EA25FC9397009658C3 /* MotionAnimationView.swift */; };
+		1D0175EE25FCCDD6009658C3 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0175ED25FCCDD6009658C3 /* AnimalGridItemView.swift */; };
 		1D59A39825FB1EF700E25550 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59A39725FB1EF700E25550 /* AfricaApp.swift */; };
 		1D59A39A25FB1EF700E25550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59A39925FB1EF700E25550 /* ContentView.swift */; };
 		1D59A39C25FB1EFB00E25550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A39B25FB1EFB00E25550 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		1D0175EA25FC9397009658C3 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		1D0175ED25FCCDD6009658C3 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		1D59A39425FB1EF700E25550 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D59A39725FB1EF700E25550 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		1D59A39925FB1EF700E25550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				1D86A5C225FC721100FAB00F /* VideoPlayerView.swift */,
 				1D0175E725FC88AD009658C3 /* MapAnnotationView.swift */,
 				1D0175EA25FC9397009658C3 /* MotionAnimationView.swift */,
+				1D0175ED25FCCDD6009658C3 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				1DA4C34725FB92F000006882 /* VideoModel.swift in Sources */,
 				1D59A39825FB1EF700E25550 /* AfricaApp.swift in Sources */,
 				1D86A5CA25FC7BF900FAB00F /* LocationModel.swift in Sources */,
+				1D0175EE25FCCDD6009658C3 /* AnimalGridItemView.swift in Sources */,
 				1DA4C33B25FB5A8300006882 /* InsetGalleryView.swift in Sources */,
 				1DA4C34A25FB943B00006882 /* VideoListItemView.swift in Sources */,
 				1D59A3E525FB33C000E25550 /* CodableBundleExtension.swift in Sources */,
