@@ -69,7 +69,6 @@ struct ContentView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack(spacing: 16) {
                         Button(action: {
-                            print("LIST VIEW ACTIVATED")
                             isGridViewActive = false
                             haptics.impactOccurred()
                         }) {
@@ -79,7 +78,6 @@ struct ContentView: View {
                         }
                         
                         Button(action: {
-                            print("GRID VIEW ACTIVATED")
                             isGridViewActive = true
                             haptics.impactOccurred()
                             gridSwitch()
